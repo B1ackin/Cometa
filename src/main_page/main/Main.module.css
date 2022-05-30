@@ -1,0 +1,31 @@
+.main_block {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 1344px;
+
+}
+.title {
+    color: #FDD536;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 130%;
+}
+.text_one {
+    color: #fff;
+    font-size: 22px;
+    line-height: 180%;
+    margin-bottom: 40px;
+}
+.text_two {
+    color: #fff;
+    font-size: 22px;
+    line-height: 180%;
+}
+.img {
+    margin-top: -70px;
+}
