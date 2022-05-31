@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './Exchange.module.css'
-import bit from '../../../image/bit.png'
-import crip from '../../../image/crip.png'
-import efir from '../../../image/efir.png'
+import bit from '../../../assets/image/bit.png'
+import crip from '../../../assets/image/crip.png'
+import efir from '../../../assets/image/efir.png'
 
 export const Exchange = () => {
     return (

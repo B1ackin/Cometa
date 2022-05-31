@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Timer.module.css'
-import plash from './../../image/plash.png'
-import planet from './../../image/planet.png'
+import plash from '../../assets/image/plash.png'
+import planet from '../../assets/image/planet.png'
 
 export const CountDown = ({days = 0, hours = 0, minutes = 0, seconds = 0}) => {
     const [paused, setPaused] = React.useState(false);

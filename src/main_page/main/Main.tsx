@@ -1,5 +1,5 @@
 import React from 'react';
-import cometa from './../../image/cosmic.png'
+import cometa from '../../assets/image/cosmic.png'
 import style from './Main.module.css'
 
 export const Main = () => {

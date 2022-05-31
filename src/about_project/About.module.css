@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1344px;
+    margin: 0 auto;
+}
+.container_not_margin {
+    width: 1344px;
+    margin: 0 auto;
+}
+
+.container_text {
+    width: 1344px;
+    margin: 0 auto;
+}
+
+
+.title {
+    color: #FDD536;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.title_rule {
+    color: #FDD536;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    z-index: 5;
+}
+
+
+.description {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.07em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.text_project {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.07em;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.title_project {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.07em;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.text {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.07em;
+}
+
+.cometacoin {
+    width: 1344px;
+    margin: 0 auto;
+}
+.items {
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+}
+.items img {
+    margin-right: 19px;
+}
+.ellips {
+    z-index: 1;
+    margin-top: -30px;
+    position: relative;
+}
+.block_rule {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-top: 25px;
+}
+.text_block {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.07em;
+}

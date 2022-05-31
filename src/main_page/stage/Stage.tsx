@@ -1,8 +1,8 @@
 import React from 'react';
-import frame1 from './../../image/Frame1.png'
-import frame2 from './../../image/Frame2.png'
-import frame3 from './../../image/Frame3.png'
-import frame4 from './../../image/Frame4.png'
+import frame1 from '../../assets/image/Frame1.png'
+import frame2 from '../../assets/image/Frame2.png'
+import frame3 from '../../assets/image/Frame3.png'
+import frame4 from '../../assets/image/Frame4.png'
 import style from './Stage.module.css'
 
 export const Stage = () => {

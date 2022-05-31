@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './Footer.module.css'
-import logo_footer from './../../image/logo_footer.png'
-import tel from './../../image/icon/tel.png'
-import mail from './../../image/icon/mail.png'
-import teleg from './../../image/icon/teleg.png'
-import what from './../../image/icon/what.png'
-import fb from './../../image/icon/fb.png'
+import logo_footer from '../../assets/image/logo_footer.png'
+import tel from '../../assets/image/icon/tel.png'
+import mail from '../../assets/image/icon/mail.png'
+import teleg from '../../assets/image/icon/teleg.png'
+import what from '../../assets/image/icon/what.png'
+import fb from '../../assets/image/icon/fb.png'
 
 
 export const Footer = () => {

@@ -1,20 +1,23 @@
 import React from 'react';
-import style from "../main_page/main/Main.module.css";
-import cometa from "../assets/image/cosmic.png";
-
+import cometa from "../assets/image/cometa-log.png";
+import style from './Login.module.css'
 
 
 export const Authorization = () => {
     return (
-        <div>
-            <div>Авторизация</div>
-            <div>
-                <input type="text"/>
-                <input type="text"/>
-                <button>Авторизоваться</button>
-            </div>
-            <div>
-                <img className={style.img} src={cometa} alt=""/>
+        <div className={style.authorization}>
+            <div className={style.container}>
+                <div>
+                    <p className={style.title}>Авторизация</p>
+                    <div className={style.form}>
+                        <input className={style.input_form} type="text" placeholder='Login'/>
+                        <input className={style.input_form} type="password" placeholder='Password'/>
+                        <button className={style.button_login}>Авторизоваться</button>
+                    </div>
+                </div>
+                <div>
+                    <img src={cometa} alt=""/>
+                </div>
             </div>
         </div>
     )

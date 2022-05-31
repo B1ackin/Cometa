@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1344px;
+    margin: 0 auto;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color:#FDD536;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.button_registration {
+    width: 431px;
+    height: 84px;
+    background: #FCD536;
+    border-radius: 40px;
+    color: #141A2E;
+    font-weight: 700;
+    border: none; outline: none;
+    cursor: pointer;
+    margin-top: 22px;
+    font-size: 23px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 150px;
+}
+.button_login:hover {
+    box-shadow: 0px 2px 5px 2px rgba(255, 255, 255, 0.25);
+}
+.input_form {
+    outline: none;
+    padding: 25px;
+    background-color: transparent;
+    color: #FCD744;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background:
+            linear-gradient(#1D2229, #1D2229) padding-box,
+            linear-gradient(90deg, #FDD536 0%, rgba(253, 213, 54, 0) 108.55%) border-box;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+::-webkit-input-placeholder {
+    color: #FCD74480;
+}
+.input_form_first {
+    outline: none;
+    padding: 25px;
+    background-color: transparent;
+    color: #FCD744;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    background:
+            linear-gradient(#1D2229, #1D2229) padding-box,
+            linear-gradient(90deg, #FDD536 0%, rgba(253, 213, 54, 0) 108.55%) border-box;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-bottom: 45px;
+}
+.input_form_first:first-child {
+    margin-top: 0px;
+}
+
+.text {
+    color: #fff;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.terms {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+
+}
+.agree {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+.terms a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 145%;
+    letter-spacing: 0.02em;
+    color: #FDD536;
+}
+
+
+
+
+
+
+
+
+
